@@ -133,8 +133,53 @@ nav {
     font-size: 2rem;
     color: var(--secondary-red);
     border-bottom: 2px solid var(--gold);
-    padding-bottom: 10px;
+    padding: 10px 0;
     margin-bottom: 30px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--gold);
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.category-title:hover {
+    color: var(--primary-red);
+}
+
+.category-title span:first-child {
+    flex: 1;
+}
+
+.dropdown-arrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s;
+    color: var(--gold);
+    margin-left: 10px;
+}
+
+.menu-category .menu-items {
+    max-height: 5000px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.3s ease-out;
+    opacity: 1;
+}
+
+.menu-category:not(.active) .menu-items {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.5s ease-out, opacity 0.3s ease-out;
+}
+
+.menu-category.active .menu-items {
+    max-height: 5000px;
+    opacity: 1;
+    transition: max-height 0.5s ease-in, opacity 0.3s ease-in;
 }
 
 .menu-items {
