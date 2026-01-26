@@ -1,0 +1,1106 @@
+[
+  {
+    "name": "7. Crab Rangoon (8) 炸芝士云吞",
+    "price": "$6.89"
+  },
+  {
+    "name": "1. Egg Roll (1) 春卷",
+    "price": "$2.29"
+  },
+  {
+    "name": "C22. General Tso's Chicken 左宗鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "52. Sweet & Sour Chicken 甜酸鸡",
+    "price": "$8.69"
+  },
+  {
+    "name": "34. Vegetable Lo Mein 菜捞面",
+    "price": "$7.59"
+  },
+  {
+    "name": "35a. Chicken Lo Mein 鸡捞面",
+    "price": "$7.79"
+  },
+  {
+    "name": "H13. General Tso's Chicken 左宗鸡",
+    "price": "$14.59"
+  },
+  {
+    "name": "3. Spring Roll (2) 上海卷",
+    "price": "$2.19"
+  },
+  {
+    "name": "16. Wonton Soup 云吞汤",
+    "price": "$3.39"
+  },
+  {
+    "name": "11. Chicken on Stick (5) 鸡串",
+    "price": "$8.29"
+  },
+  {
+    "name": "C1. Chicken Chow Mein 鸡炒面",
+    "price": "$12.19"
+  },
+  {
+    "name": "C1a. Pork Chow Mein 叉烧炒面",
+    "price": "$12.19"
+  },
+  {
+    "name": "C2. Chicken with Broccoli 芥兰鸡",
+    "price": "$12.19"
+  },
+  {
+    "name": "C3. Roast Pork with Mushroom 蘑菇叉烧",
+    "price": "$12.19"
+  },
+  {
+    "name": "C4. Chicken with Snow Peas 雪豆鸡",
+    "price": "$12.19"
+  },
+  {
+    "name": "C5. Sweet & Sour Chicken 甜酸鸡",
+    "price": "$12.19"
+  },
+  {
+    "name": "C5b. Sweet & Sour Pork 甜酸肉",
+    "price": "$12.19"
+  },
+  {
+    "name": "C6. Pork Lo Mein 叉烧捞面",
+    "price": "$12.19"
+  },
+  {
+    "name": "C6a. Chicken Lo Mein 鸡捞面",
+    "price": "$12.19"
+  },
+  {
+    "name": "C7. Chicken with Cashew Nuts 腰果鸡",
+    "price": "$12.19"
+  },
+  {
+    "name": "C8. Moo Goo Gai Pan 蘑菇鸡片",
+    "price": "$12.19"
+  },
+  {
+    "name": "C9. Pepper Chicken with Onion 青椒鸡",
+    "price": "$12.19"
+  },
+  {
+    "name": "C10. Chicken with Mixed Vegetable 什菜鸡",
+    "price": "$12.19"
+  },
+  {
+    "name": "C11. Shrimp Chow Mein 虾炒面",
+    "price": "$12.59"
+  },
+  {
+    "name": "C11a. Beef Chow Mein 牛炒面",
+    "price": "$12.59"
+  },
+  {
+    "name": "C12. Shrimp with Broccoli 芥兰虾",
+    "price": "$12.59"
+  },
+  {
+    "name": "C12a. Beef with Broccoli 芥兰牛",
+    "price": "$12.59"
+  },
+  {
+    "name": "C13. Pepper Steak with Onion 青椒牛",
+    "price": "$12.59"
+  },
+  {
+    "name": "C14. Shrimp with Lobster Sauce 虾龙糊",
+    "price": "$12.59"
+  },
+  {
+    "name": "C15. Shrimp with Chinese Vegetable 白菜虾",
+    "price": "$12.59"
+  },
+  {
+    "name": "C16. Chicken with Black Pepper 黑椒鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C17. Boneless Spare Ribs 无骨排",
+    "price": "$12.89"
+  },
+  {
+    "name": "C18. Shrimp with Oyster Sauce 蚝油虾",
+    "price": "$12.59"
+  },
+  {
+    "name": "C19. Shrimp Lo Mein 虾捞面",
+    "price": "$12.59"
+  },
+  {
+    "name": "C19a. Beef Lo Mein 牛捞面",
+    "price": "$12.59"
+  },
+  {
+    "name": "C20. Roast Pork Egg Foo Young 叉烧蓉蛋",
+    "price": "$12.59"
+  },
+  {
+    "name": "C21. Bourbon Chicken 棒棒鸡",
+    "price": "$12.89"
+  },
+  {
+    "name": "C22. General Tso's Chicken 左宗鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C23. Sesame Chicken 芝麻鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C24. Chicken with Garlic Sauce 鱼香鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C25. Mongolian Chicken 蒙古鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C25a. Hunan Chicken 湖南鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C27.Szechuan Chicken 四川鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C27a. Kung Pao Chicken 宫保鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C29. Curry Chicken 咖喱鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C30. Spicy Mala Chicken 麻辣鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "C31. Shrimp with Garlic Sauce 鱼香虾",
+    "price": "$12.59"
+  },
+  {
+    "name": "C31a. Beef with Garlic Sauce 鱼香牛",
+    "price": "$12.59"
+  },
+  {
+    "name": "C32. Triple Delight with Garlic Sauce 鱼香三样",
+    "price": "$12.59"
+  },
+  {
+    "name": "C33. Hot & Spicy Beef 干烧牛",
+    "price": "$12.59"
+  },
+  {
+    "name": "25. Vegetable Fried Rice 菜炒饭",
+    "price": "$7.39"
+  },
+  {
+    "name": "26. Roast Pork Fried Rice 叉烧炒饭",
+    "price": "$7.79"
+  },
+  {
+    "name": "27. Chicken Fried Rice 鸡炒饭",
+    "price": "$7.79"
+  },
+  {
+    "name": "28. Beef Fried Rice 牛炒饭",
+    "price": "$9.19"
+  },
+  {
+    "name": "29. Shrimp Fried Rice 虾炒饭",
+    "price": "$11.29"
+  },
+  {
+    "name": "30. Crab Meat Fried Rice 蟹肉炒饭",
+    "price": "$8.59"
+  },
+  {
+    "name": "31. Ham Fried Rice 火腿炒饭",
+    "price": "$9.19"
+  },
+  {
+    "name": "33. House Special Fried Rice 本楼炒饭",
+    "price": "$9.39"
+  },
+  {
+    "name": "34. Vegetable Lo Mein 菜捞面",
+    "price": "$7.59"
+  },
+  {
+    "name": "35. Roast Pork Lo Mein 叉烧捞面",
+    "price": "$7.79"
+  },
+  {
+    "name": "35a. Chicken Lo Mein 鸡捞面",
+    "price": "$7.79"
+  },
+  {
+    "name": "36. Shrimp Lo Mein 虾捞面",
+    "price": "$9.19"
+  },
+  {
+    "name": "36a. Beef Lo Mein 牛捞面",
+    "price": "$9.19"
+  },
+  {
+    "name": "37. Crab Meat Lo Mein 蟹肉捞面",
+    "price": "$8.69"
+  },
+  {
+    "name": "39. House Special Lo Mein 本楼捞面",
+    "price": "$9.39"
+  },
+  {
+    "name": "1. Chicken Chow Mein 鸡炒面",
+    "price": "$9.99"
+  },
+  {
+    "name": "2. Chicken with Broccoli 芥兰鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "3. Sweet & Sour Chicken 甜酸鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "4. Steamed Chicken with Vegetables 煮什菜鸡",
+    "price": "$13.49"
+  },
+  {
+    "name": "5. Chicken with Mixed Vegetable 什菜鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "6. Sweet & Sour Shrimp 甜酸虾",
+    "price": "$10.29"
+  },
+  {
+    "name": "7. Pepper Chicken with Onion 青椒鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "8. Chicken with Snow Peas 雪豆鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "9. Chicken with Cashew Nuts 腰果鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "10. Chicken with Mushroom 蘑菇鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "11. Chicken Lo Mein 鸡捞面",
+    "price": "$9.99"
+  },
+  {
+    "name": "11a. Pork Lo Mein 叉烧捞面",
+    "price": "$9.99"
+  },
+  {
+    "name": "12. Roast Pork with Chinese Vegetable 白菜叉烧",
+    "price": "$9.99"
+  },
+  {
+    "name": "13. Roast Pork Egg Foo Young 叉烧蓉蛋",
+    "price": "$9.99"
+  },
+  {
+    "name": "14. Roast Pork with Snow Peas 雪豆叉烧",
+    "price": "$9.99"
+  },
+  {
+    "name": "15. Sweet & Sour Pork 甜酸肉",
+    "price": "$9.99"
+  },
+  {
+    "name": "16. Boneless Spare Ribs 无骨排",
+    "price": "$10.29"
+  },
+  {
+    "name": "17. Pepper Steak with Onion 青椒牛",
+    "price": "$10.29"
+  },
+  {
+    "name": "18. Shrimp Lo Mein 虾捞面",
+    "price": "$10.29"
+  },
+  {
+    "name": "18a. Beef Lo Mein 牛捞面",
+    "price": "$10.29"
+  },
+  {
+    "name": "19. Shrimp Chow Mein 虾炒面",
+    "price": "$10.29"
+  },
+  {
+    "name": "20. Shrimp with Broccoli 芥兰虾",
+    "price": "$10.29"
+  },
+  {
+    "name": "21. Shrimp with Chinese Vegetable 白菜虾",
+    "price": "$10.29"
+  },
+  {
+    "name": "22.Shrimp with Lobster Sauce 虾龙糊",
+    "price": "$10.29"
+  },
+  {
+    "name": "23. Vegetable Delight 什菜",
+    "price": "$9.99"
+  },
+  {
+    "name": "23b. Bourbon Chicken 棒棒鸡",
+    "price": "$10.29"
+  },
+  {
+    "name": "24. General Tso's Chicken 左宗鸡",
+    "price": "$10.29"
+  },
+  {
+    "name": "25. Sesame Chicken 芝麻鸡",
+    "price": "$10.29"
+  },
+  {
+    "name": "26. Hunan Chicken 湖南鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "27. Szechuan Chicken 四川鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "28. Chicken with Garlic Sauce 鱼香鸡",
+    "price": "$9.99"
+  },
+  {
+    "name": "29. Kung Pao Chicken 宫保鸡",
+    "price": "$10.19"
+  },
+  {
+    "name": "30. Spicy Mala Chicken 麻辣鸡",
+    "price": "$10.19"
+  },
+  {
+    "name": "31. Curry Chicken 咖喱鸡",
+    "price": "$10.19"
+  },
+  {
+    "name": "32. Mongolian Chicken 蒙古鸡",
+    "price": "$10.19"
+  },
+  {
+    "name": "33. Hot & Spicy Chicken 干烧鸡",
+    "price": "$10.29"
+  },
+  {
+    "name": "34. Hot & Spicy Beef 干烧牛",
+    "price": "$10.29"
+  },
+  {
+    "name": "35. Spicy Triple Delight 辣三样",
+    "price": "$10.29"
+  },
+  {
+    "name": "36. Hot & Spicy Shrimp 干烧虾",
+    "price": "$10.29"
+  },
+  {
+    "name": "37. Shrimp with Garlic Sauce 鱼香虾",
+    "price": "$10.29"
+  },
+  {
+    "name": "38. Broccoli with Garlic Sauce 鱼香芥兰",
+    "price": "$9.99"
+  },
+  {
+    "name": "H1. Happy Family 全家福",
+    "price": "$16.59"
+  },
+  {
+    "name": "H2. Seafood Delight 海鲜大会",
+    "price": "$17.19"
+  },
+  {
+    "name": "H3. Dragon & Phoenix 龙凤配",
+    "price": "$16.59"
+  },
+  {
+    "name": "H4. Four Season 炒四季",
+    "price": "$16.59"
+  },
+  {
+    "name": "H5. Double Delight (Shrimp & Chicken) 爆双丁",
+    "price": "$15.49"
+  },
+  {
+    "name": "H6. Triple Delight 三及第",
+    "price": "$16.59"
+  },
+  {
+    "name": "H7. Subgum Wonton 什锦云吞",
+    "price": "$16.59"
+  },
+  {
+    "name": "H8. Chicken & Scallop 干贝鸡",
+    "price": "$16.59"
+  },
+  {
+    "name": "H9. Lemon Chicken 柠檬鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "H10. Tung Ting Shrimp 洞庭虾",
+    "price": "$14.29"
+  },
+  {
+    "name": "H11. Subgum Pan Fried Noodle 什锦两面黄",
+    "price": "$16.29"
+  },
+  {
+    "name": "H12. Chicken with Black Pepper 黑椒鸡",
+    "price": "$14.29"
+  },
+  {
+    "name": "H13. General Tso's Chicken 左宗鸡",
+    "price": "$14.59"
+  },
+  {
+    "name": "H14. Sesame Chicken 芝麻鸡",
+    "price": "$14.59"
+  },
+  {
+    "name": "H15. Orange Chicken 陈皮鸡",
+    "price": "$14.59"
+  },
+  {
+    "name": "H16. Scallop & Beef 干贝牛",
+    "price": "$17.29"
+  },
+  {
+    "name": "H17. Triple Delight with Garlic Sauce 鱼香三样",
+    "price": "$16.59"
+  },
+  {
+    "name": "H18. Triple Hunan Style 湖南三样",
+    "price": "$16.59"
+  },
+  {
+    "name": "H19. Triple Szechuan Style 四川三样",
+    "price": "$16.59"
+  },
+  {
+    "name": "H20. Triple Mongolian Style 蒙古三样",
+    "price": "$16.59"
+  },
+  {
+    "name": "H21. Scallop w. Garlic Sauce 鱼香干贝",
+    "price": "$16.59"
+  },
+  {
+    "name": "H22. Sesame Beef 芝麻牛",
+    "price": "$17.19"
+  },
+  {
+    "name": "H23. Orange Beef 陈皮牛",
+    "price": "$17.19"
+  },
+  {
+    "name": "H24. Bourbon Chicken 棒棒鸡",
+    "price": "$15.19"
+  },
+  {
+    "name": "1. Egg Roll (1) 春卷",
+    "price": "$2.29"
+  },
+  {
+    "name": "2. Shrimp Roll (1) 虾卷",
+    "price": "$2.79"
+  },
+  {
+    "name": "3. Spring Roll (2) 上海卷",
+    "price": "$2.19"
+  },
+  {
+    "name": "4. Fried Wonton (10) 炸云吞",
+    "price": "$6.59"
+  },
+  {
+    "name": "5. Fried Chinese Donuts (10) 炸甜包",
+    "price": "$6.19"
+  },
+  {
+    "name": "6. Fried Dumpling (8) 锅贴",
+    "price": "$7.79"
+  },
+  {
+    "name": "6a. Steamed Dumpling (8) 水饺",
+    "price": "$7.79"
+  },
+  {
+    "name": "7. Crab Rangoon (8) 炸芝士云吞",
+    "price": "$6.89"
+  },
+  {
+    "name": "8. Sesame Ball (8) 芝麻球",
+    "price": "$4.89"
+  },
+  {
+    "name": "9. Fried Chicken wings (8) 炸鸡翅",
+    "price": "$10.09"
+  },
+  {
+    "name": "10. Buffalo Chicken Wings (8) 辣鸡翅",
+    "price": "$10.59"
+  },
+  {
+    "name": "11. Chicken on Stick (5) 鸡串",
+    "price": "$8.29"
+  },
+  {
+    "name": "12. Boneless Spare Ribs 无骨排",
+    "price": "$9.99"
+  },
+  {
+    "name": "13. Fried Jumbo Shrimp (8) 炸大虾",
+    "price": "$7.39"
+  },
+  {
+    "name": "14. Fried Scallop (8) 炸干贝",
+    "price": "$5.09"
+  },
+  {
+    "name": "15. Pu Pu Platter (For 2) 宝宝盘",
+    "price": "$16.59"
+  },
+  {
+    "name": "16. Wonton Soup 云吞汤",
+    "price": "$3.39"
+  },
+  {
+    "name": "17. Egg Drop Soup 蛋花汤",
+    "price": "$3.39"
+  },
+  {
+    "name": "18. Wonton Egg Drop Soup 云吞蛋花汤",
+    "price": "$4.19"
+  },
+  {
+    "name": "19. Chicken Noodle Soup 鸡面汤",
+    "price": "$4.19"
+  },
+  {
+    "name": "20. Chicken Rice Soup 鸡饭汤",
+    "price": "$4.19"
+  },
+  {
+    "name": "21. Tofu with Mixed Vegetable Soup 豆腐什菜汤",
+    "price": "$4.19"
+  },
+  {
+    "name": "22. House Special Soup 本楼汤",
+    "price": "$8.49"
+  },
+  {
+    "name": "23. Seafood Soup 海鲜汤",
+    "price": "$9.39"
+  },
+  {
+    "name": "24. Hot & Sour Soup 酸辣汤",
+    "price": "$5.09"
+  },
+  {
+    "name": "84. Chicken with Broccoli 芥兰鸡",
+    "price": "$9.79"
+  },
+  {
+    "name": "85. Moo Goo Gai Pan 蘑菇鸡片",
+    "price": "$9.79"
+  },
+  {
+    "name": "86. Pepper Chicken with Onions 青椒鸡",
+    "price": "$9.79"
+  },
+  {
+    "name": "87. Chicken with Mushrooms 蘑菇鸡",
+    "price": "$9.79"
+  },
+  {
+    "name": "88. Chicken with Mixed Vegetable 什菜鸡",
+    "price": "$9.79"
+  },
+  {
+    "name": "89. Chicken with Snow Peas 雪豆鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "90. Chicken with Oyster Sauce 蚝油鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "91. Chicken with Black Bean Sauce 豆豉鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "92. Chicken with String Bean 四季豆鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "93. Chicken with Cashew Nuts 腰果鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "94. Chicken with Almond 杏仁鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "95. Boneless Chicken 无骨鸡",
+    "price": "$14.89"
+  },
+  {
+    "name": "96. Chicken with Garlic Sauce 鱼香鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "97. Curry Chicken 咖喱鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "98. Hunan Chicken 湖南鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "99. Szechuan Chicken 四川鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "100. Kung Pao Chicken 宫保鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "101. Mongolian Chicken 蒙古鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "102. Spicy Mala Chicken 麻辣鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "103. Hot & Spicy Chicken 干烧鸡",
+    "price": "$13.09"
+  },
+  {
+    "name": "114. Beef with Broccoli 芥兰牛",
+    "price": "$10.19"
+  },
+  {
+    "name": "115. Beef with Mushroom 蘑菇牛",
+    "price": "$10.19"
+  },
+  {
+    "name": "116. Beef with Black Bean Sauce 豆豉牛",
+    "price": "$13.69"
+  },
+  {
+    "name": "117. Pepper Steak with Onion 青椒牛",
+    "price": "$10.19"
+  },
+  {
+    "name": "118. Beef with Oyster Sauce 蚝油牛",
+    "price": "$10.19"
+  },
+  {
+    "name": "119. Beef with Mixed Vegetable 什菜牛",
+    "price": "$10.19"
+  },
+  {
+    "name": "120. Beef with Chines Vegetable 白菜牛",
+    "price": "$10.19"
+  },
+  {
+    "name": "121. Beef with Snow Peas 雪豆牛",
+    "price": "$13.69"
+  },
+  {
+    "name": "122. Hunan Beef 湖南牛",
+    "price": "$13.69"
+  },
+  {
+    "name": "123. Szechuan Beef 四川牛",
+    "price": "$13.69"
+  },
+  {
+    "name": "124. Beef with Garlic Sauce 鱼香牛",
+    "price": "$13.69"
+  },
+  {
+    "name": "125. Curry Beef 咖喱牛",
+    "price": "$13.69"
+  },
+  {
+    "name": "126. Hot & Spicy Beef 干烧牛",
+    "price": "$13.69"
+  },
+  {
+    "name": "127. Kung Pao Beef 宫保牛",
+    "price": "$13.69"
+  },
+  {
+    "name": "128. Mongolian Beef 蒙古牛",
+    "price": "$13.69"
+  },
+  {
+    "name": "129. Shrimp with Broccoli 芥兰虾",
+    "price": "$9.99"
+  },
+  {
+    "name": "130. Shrimp with Chinese Vegetable 白菜虾",
+    "price": "$9.99"
+  },
+  {
+    "name": "131. Shrimp with Oyster Sauce 蚝油虾",
+    "price": "$9.99"
+  },
+  {
+    "name": "132. Shrimp with Mushroom 蘑菇虾",
+    "price": "$9.99"
+  },
+  {
+    "name": "133. Shrimp with Mixed Vegetables 什菜虾",
+    "price": "$9.99"
+  },
+  {
+    "name": "134. Shrimp with Lobster Sauce 龙虾糊",
+    "price": "$9.99"
+  },
+  {
+    "name": "135. Shrimp with Snow Peas 雪豆虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "136. Shrimp with Black Bean Sauce 豆豉虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "137. Shrimp with Cashew Nuts 腰果虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "138. Shrimp with Almond 杏仁虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "139. Hunan Shrimp 湖南虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "140. Szechuan Shrimp 四川虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "141. Shrimp with Garlic Sauce 鱼香虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "142. Kung Pao Shrimp 宫保虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "143. Curry Shrimp 咖喱虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "144. Mongolian Shrimp 蒙古虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "145. Hot & Spicy Shrimp 干烧虾",
+    "price": "$13.29"
+  },
+  {
+    "name": "104. Roast Pork with Mushrooms 蘑菇叉烧",
+    "price": "$9.79"
+  },
+  {
+    "name": "105. Roast Pork with Broccoli 芥兰叉烧",
+    "price": "$9.79"
+  },
+  {
+    "name": "106. Roast Pork with Oyster Sauce 蚝油叉烧",
+    "price": "$9.79"
+  },
+  {
+    "name": "107. Roast Pork with Mixed Vegetable 什菜叉烧",
+    "price": "$9.79"
+  },
+  {
+    "name": "108. Roast Pork with Chinese Vegetable 白菜叉烧",
+    "price": "$9.79"
+  },
+  {
+    "name": "109. Roast Pork with Snow Pea 雪豆叉烧",
+    "price": "$13.09"
+  },
+  {
+    "name": "110. Hunan Pork 湖南肉",
+    "price": "$13.09"
+  },
+  {
+    "name": "111. Szechuan Pork 四川肉",
+    "price": "$13.09"
+  },
+  {
+    "name": "112. Pork with Garlic Sauce 鱼香肉",
+    "price": "$13.09"
+  },
+  {
+    "name": "113. Double Cooked Pork 回锅肉",
+    "price": "$13.09"
+  },
+  {
+    "name": "69. Vegetable Delight 素什锦",
+    "price": "$10.79"
+  },
+  {
+    "name": "70. Sauteed Broccoli 炒芥兰",
+    "price": "$10.79"
+  },
+  {
+    "name": "71. Sauteed String Bean 炒四季豆",
+    "price": "$11.29"
+  },
+  {
+    "name": "72. Fried Tofu 炸豆腐",
+    "price": "$11.29"
+  },
+  {
+    "name": "73. Broccoli with Garlic Sauce 鱼香芥兰",
+    "price": "$10.79"
+  },
+  {
+    "name": "74. Bean Curd with Garlic Sauce 鱼香豆腐",
+    "price": "$10.99"
+  },
+  {
+    "name": "75. Curry Tofu 咖喱豆腐",
+    "price": "$10.99"
+  },
+  {
+    "name": "76. Mixed Vegetable with Garlic Sauce 鱼香什菜",
+    "price": "$10.99"
+  },
+  {
+    "name": "77. Ma Po Tofu 麻婆豆腐",
+    "price": "$10.99"
+  },
+  {
+    "name": "78.Bean Curd Szechuan Style 四川豆腐",
+    "price": "$10.99"
+  },
+  {
+    "name": "40. Vegetable Chow Mein 菜炒面",
+    "price": "$7.59"
+  },
+  {
+    "name": "41. Roast Pork Chow Mein 叉烧炒面",
+    "price": "$7.59"
+  },
+  {
+    "name": "41a. Chicken Chow Mein 鸡炒面",
+    "price": "$7.59"
+  },
+  {
+    "name": "42. Shrimp Chow Mein 虾炒面",
+    "price": "$9.19"
+  },
+  {
+    "name": "42a. Beef Chow Mein 牛炒面",
+    "price": "$9.19"
+  },
+  {
+    "name": "43. Crab Meat Chow Mein 蟹肉炒面",
+    "price": "$8.49"
+  },
+  {
+    "name": "45. House Special Chow Mein 本楼炒面",
+    "price": "$9.39"
+  },
+  {
+    "name": "46. Vegetable Chop Suey 菜什碎",
+    "price": "$7.59"
+  },
+  {
+    "name": "47. Roast Pork Chop Suey 叉烧什碎",
+    "price": "$8.29"
+  },
+  {
+    "name": "47a. Chicken Chop Suey 鸡什碎",
+    "price": "$8.29"
+  },
+  {
+    "name": "48. Beef Chop Suey 牛什碎",
+    "price": "$9.19"
+  },
+  {
+    "name": "48a. Shrimp Chop Suey 虾什碎",
+    "price": "$9.19"
+  },
+  {
+    "name": "49. Crab Meat Chop Suey 蟹肉什碎",
+    "price": "$8.49"
+  },
+  {
+    "name": "51. House Special Chop Suey 本楼什碎",
+    "price": "$9.39"
+  },
+  {
+    "name": "52. Sweet & Sour Chicken 甜酸鸡",
+    "price": "$8.69"
+  },
+  {
+    "name": "53. Sweet & Sour Pork 甜酸肉",
+    "price": "$8.69"
+  },
+  {
+    "name": "54. Sweet & Sour Shrimp 甜酸虾",
+    "price": "$8.99"
+  },
+  {
+    "name": "55. Sweet & Sour Combo 甜酸三宝",
+    "price": "$12.59"
+  },
+  {
+    "name": "56. Vegetable Egg Foo Young 菜蓉蛋",
+    "price": "$10.99"
+  },
+  {
+    "name": "57. Roast Pork Egg Foo Young 叉烧蓉蛋",
+    "price": "$11.49"
+  },
+  {
+    "name": "57a. Chicken Egg Foo Young 鸡蓉蛋",
+    "price": "$11.49"
+  },
+  {
+    "name": "58. Beef Egg Foo Young 牛蓉蛋",
+    "price": "$12.09"
+  },
+  {
+    "name": "58a. Shrimp Egg Foo Young 虾蓉蛋",
+    "price": "$12.09"
+  },
+  {
+    "name": "59. Crab Meat Egg Foo Young 蟹肉蓉蛋",
+    "price": "$11.99"
+  },
+  {
+    "name": "60. Mushroom Egg Foo Young 蘑菇蓉蛋",
+    "price": "$11.69"
+  },
+  {
+    "name": "61.Ham Egg Foo Young 火腿蓉蛋",
+    "price": "$11.99"
+  },
+  {
+    "name": "63. House Special Egg Foo Young 本楼蓉蛋",
+    "price": "$12.39"
+  },
+  {
+    "name": "64. Vegetable Chow Mei Fun 菜炒米粉",
+    "price": "$11.49"
+  },
+  {
+    "name": "65. Roast Pork Chow Mei Fun 叉烧炒米粉",
+    "price": "$11.99"
+  },
+  {
+    "name": "65a. Chicken Chow Mei Fun 鸡炒米粉",
+    "price": "$11.99"
+  },
+  {
+    "name": "66. Beef Chow Mei Fun 牛炒米粉",
+    "price": "$12.59"
+  },
+  {
+    "name": "66a. Shrimp Chow Mei Fun 虾炒米粉",
+    "price": "$12.59"
+  },
+  {
+    "name": "67. House Special Chow Mei Fun 本楼炒米粉",
+    "price": "$13.09"
+  },
+  {
+    "name": "68. Singapore Mei Fun 新加坡米粉",
+    "price": "$13.09"
+  },
+  {
+    "name": "79. Moo Shu Vegetable 木须菜",
+    "price": "$12.29"
+  },
+  {
+    "name": "80. Moo Shu Pork 木须肉",
+    "price": "$12.59"
+  },
+  {
+    "name": "81. Moo Shu Chicken 木须鸡",
+    "price": "$12.59"
+  },
+  {
+    "name": "82. Moo Shu Beef 木须牛",
+    "price": "$13.09"
+  },
+  {
+    "name": "83. Moo Shu Shrimp 木须虾",
+    "price": "$13.09"
+  },
+  {
+    "name": "Fortune Cookies (5) 签语饼",
+    "price": "$0.89"
+  },
+  {
+    "name": "Fried Crispy Noodles (Per Bag) 炸面干",
+    "price": "$0.89"
+  },
+  {
+    "name": "Almonds Cookies (4) 杏仁饼",
+    "price": "$1.79"
+  },
+  {
+    "name": "White Rice 白饭",
+    "price": "$2.89"
+  },
+  {
+    "name": "D1. Steamed Mixed Vegetables 煮什菜",
+    "price": "$11.19"
+  },
+  {
+    "name": "D2. Steamed Broccoli 煮芥兰",
+    "price": "$11.19"
+  },
+  {
+    "name": "D3. Steamed Chicken with Mixed Vegetable 煮什菜鸡",
+    "price": "$13.49"
+  },
+  {
+    "name": "D4. Steamed Beef with Mixed Vegetable 煮什菜牛",
+    "price": "$14.19"
+  },
+  {
+    "name": "D5. Steamed Shrimp with Mixed Vegetable 煮什菜虾",
+    "price": "$13.79"
+  },
+  {
+    "name": "D6. Steamed Tofu with Mixed Vegetable 煮什菜豆腐",
+    "price": "$11.49"
+  }
+]
