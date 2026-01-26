@@ -36,8 +36,11 @@
             <h2 class="section-title">Our Menu</h2>
             
             <!-- Appetizers -->
-            <div class="menu-category">
-                <h3 class="category-title">Appetizers</h3>
+            <div class="menu-category active">
+                <button class="category-title" onclick="toggleCategory(this)">
+                    <span>Appetizers</span>
+                    <span class="dropdown-arrow">▲</span>
+                </button>
                 <div class="menu-items">
                     <div class="menu-item">
                         <div class="item-image">
@@ -108,7 +111,10 @@
             
             <!-- Soups -->
             <div class="menu-category">
-                <h3 class="category-title">Soups</h3>
+                <button class="category-title" onclick="toggleCategory(this)">
+                    <span>Soups</span>
+                    <span class="dropdown-arrow">▼</span>
+                </button>
                 <div class="menu-items">
                     <div class="menu-item">
                         <div class="item-image">
@@ -153,7 +159,10 @@
             
             <!-- Main Courses -->
             <div class="menu-category">
-                <h3 class="category-title">Main Courses</h3>
+                <button class="category-title" onclick="toggleCategory(this)">
+                    <span>Main Courses</span>
+                    <span class="dropdown-arrow">▼</span>
+                </button>
                 <div class="menu-items">
                     <div class="menu-item">
                         <div class="item-image">
@@ -263,7 +272,10 @@
             
             <!-- Chef's Specials -->
             <div class="menu-category">
-                <h3 class="category-title">Chef's Specials</h3>
+                <button class="category-title" onclick="toggleCategory(this)">
+                    <span>Chef's Specials</span>
+                    <span class="dropdown-arrow">▼</span>
+                </button>
                 <div class="menu-items">
                     <div class="menu-item">
                         <div class="item-image">
@@ -349,5 +361,23 @@
             <p class="copyright">© 2023 China Garden. All Rights Reserved.</p>
         </div>
     </footer>
+    
+    <script>
+        function toggleCategory(button) {
+            const category = button.parentElement;
+            const menuItems = category.querySelector('.menu-items');
+            const arrow = button.querySelector('.dropdown-arrow');
+            
+            // Toggle the active class
+            category.classList.toggle('active');
+            
+            // Toggle arrow direction
+            if (category.classList.contains('active')) {
+                arrow.textContent = '▲';
+            } else {
+                arrow.textContent = '▼';
+            }
+        }
+    </script>
 </body>
 </html>
