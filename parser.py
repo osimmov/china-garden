@@ -11,18 +11,33 @@ headers = {
 response = requests.get(URL, headers=headers)
 soup = BeautifulSoup(response.text, "html.parser")
 
-items = []
+menu = {}
+current_category = None
 
-names = soup.find_all("div", class_="order_restaurant--menu_item_name")
-prices = soup.find_all("div", class_="menu_item_price")
+# This grabs both headings and menu items in page order
+for element in soup.find_all(["div"], recursive=True):
 
-for name, price in zip(names, prices):
-    items.append({
-        "name": name.get_text(strip=True),
-        "price": price.get_text(strip=True)
-    })
+    # CATEGORY
+    if "restaurant_heading" in element.get("class", []):
+        h4 = element.find("h4")
+        if h4:
+            current_category = h4.get_text(strip=True)
+            menu[current_category] = []
+
+    # MENU ITEM
+    if element.get("class") == ["order_restaurant--menu_item_name"]:
+        name = element.get_text(strip=True)
+
+        price_div = element.find_next("div", class_="menu_item_price")
+        price = price_div.get_text(strip=True) if price_div else None
+
+        if current_category:
+            menu[current_category].append({
+                "name": name,
+                "price": price
+            })
 
 with open("menu.json", "w", encoding="utf-8") as f:
-    json.dump(items, f, indent=2, ensure_ascii=False)
+    json.dump(menu, f, indent=2, ensure_ascii=False)
 
-print("menu.json created")
+print("menu.json created with categories")

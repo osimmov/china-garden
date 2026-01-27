@@ -34,289 +34,7 @@
     <section id="menu" class="section">
         <div class="container">
             <h2 class="section-title">Our Menu</h2>
-            
-            <!-- Appetizers -->
-            <div class="menu-category active">
-                <button class="category-title" onclick="toggleCategory(this)">
-                    <span>Appetizers</span>
-                    <span class="dropdown-arrow">▲</span>
-                </button>
-                <div class="menu-items">
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Spring Rolls">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Spring Rolls</span>
-                                <span class="item-price">$4.99</span>
-                            </div>
-                            <p class="item-description">Crispy vegetarian spring rolls with cabbage, carrots, and mushrooms served with sweet chili sauce.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Pork Dumplings">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Pork Dumplings (8pc)</span>
-                                <span class="item-price">$6.99</span>
-                            </div>
-                            <p class="item-description">Handmade dumplings filled with seasoned pork and vegetables, steamed to perfection.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1582284540020-8acbe03f4924?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Szechuan Wontons">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Szechuan Wontons</span>
-                                <span class="item-price">$5.99</span>
-                            </div>
-                            <p class="item-description">Spicy pork wontons in our signature Szechuan chili oil sauce.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Scallion Pancakes">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Scallion Pancakes</span>
-                                <span class="item-price">$4.49</span>
-                            </div>
-                            <p class="item-description">Flaky, pan-fried pancakes with layers of scallions, served with soy dipping sauce.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Crab Rangoon">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Crab Rangoon (6pc)</span>
-                                <span class="item-price">$5.49</span>
-                            </div>
-                            <p class="item-description">Crispy wontons filled with cream cheese, crab meat, and scallions.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Soups -->
-            <div class="menu-category">
-                <button class="category-title" onclick="toggleCategory(this)">
-                    <span>Soups</span>
-                    <span class="dropdown-arrow">▼</span>
-                </button>
-                <div class="menu-items">
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Hot & Sour Soup">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Hot & Sour Soup</span>
-                                <span class="item-price">$3.99</span>
-                            </div>
-                            <p class="item-description">A spicy and tangy soup with mushrooms, tofu, bamboo shoots, and egg.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Wonton Soup">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Wonton Soup</span>
-                                <span class="item-price">$4.49</span>
-                            </div>
-                            <p class="item-description">Clear broth with pork wontons, bok choy, and scallions.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Egg Drop Soup">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Egg Drop Soup</span>
-                                <span class="item-price">$3.49</span>
-                            </div>
-                            <p class="item-description">Silky egg ribbons in a flavorful chicken broth with green onions.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Main Courses -->
-            <div class="menu-category">
-                <button class="category-title" onclick="toggleCategory(this)">
-                    <span>Main Courses</span>
-                    <span class="dropdown-arrow">▼</span>
-                </button>
-                <div class="menu-items">
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="General Tso's Chicken">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">General Tso's Chicken</span>
-                                <span class="item-price">$12.99</span>
-                            </div>
-                            <p class="item-description">Crispy chicken tossed in our signature sweet and slightly spicy sauce with broccoli.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Beef with Broccoli">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Beef with Broccoli</span>
-                                <span class="item-price">$14.99</span>
-                            </div>
-                            <p class="item-description">Tender slices of beef stir-fried with fresh broccoli in a savory brown sauce.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Kung Pao Chicken">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Kung Pao Chicken</span>
-                                <span class="item-price">$13.99</span>
-                            </div>
-                            <p class="item-description">Diced chicken with peanuts, vegetables, and chili peppers in a spicy sauce.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sweet and Sour Pork">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Sweet and Sour Pork</span>
-                                <span class="item-price">$13.49</span>
-                            </div>
-                            <p class="item-description">Crispy pork with bell peppers, pineapple, and onion in our tangy sweet and sour sauce.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mapo Tofu">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Mapo Tofu</span>
-                                <span class="item-price">$11.99</span>
-                            </div>
-                            <p class="item-description">Soft tofu in a spicy Szechuan sauce with ground pork and chili oil.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Peking Duck">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Peking Duck (Half)</span>
-                                <span class="item-price">$24.99</span>
-                            </div>
-                            <p class="item-description">Crispy roasted duck served with thin pancakes, hoisin sauce, and scallions.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Shrimp with Lobster Sauce">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Shrimp with Lobster Sauce</span>
-                                <span class="item-price">$16.99</span>
-                            </div>
-                            <p class="item-description">Juicy shrimp in a rich, savory sauce with peas and minced pork.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Vegetable Lo Mein">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Vegetable Lo Mein</span>
-                                <span class="item-price">$10.99</span>
-                            </div>
-                            <p class="item-description">Stir-fried noodles with mixed vegetables in a light soy sauce.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Chef's Specials -->
-            <div class="menu-category">
-                <button class="category-title" onclick="toggleCategory(this)">
-                    <span>Chef's Specials</span>
-                    <span class="dropdown-arrow">▼</span>
-                </button>
-                <div class="menu-items">
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Szechuan Hot Pot">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Szechuan Hot Pot</span>
-                                <span class="item-price">$18.99</span>
-                            </div>
-                            <p class="item-description">Assorted meats, seafood, and vegetables cooked tableside in a fiery Szechuan broth.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Dragon & Phoenix">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Dragon & Phoenix</span>
-                                <span class="item-price">$19.99</span>
-                            </div>
-                            <p class="item-description">A combination of Kung Pao chicken and honey walnut shrimp - sweet and spicy!</p>
-                        </div>
-                    </div>
-                    
-                    <div class="menu-item">
-                        <div class="item-image">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Peking Pork Chops">
-                        </div>
-                        <div class="item-details">
-                            <div class="item-name-price">
-                                <span class="item-name">Peking Pork Chops</span>
-                                <span class="item-price">$16.49</span>
-                            </div>
-                            <p class="item-description">Crispy pork chops glazed with our special sweet and sour Peking sauce.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="menu-container"></div>
         </div>
     </section>
     
@@ -377,6 +95,165 @@
                 arrow.textContent = '▼';
             }
         }
+
+        // Function to get image URL based on food name
+        function getFoodImage(foodName) {
+            const name = foodName.toLowerCase();
+            
+            // Image mapping for common Chinese dishes
+            const imageMap = {
+                'egg roll': 'https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'spring roll': 'https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'shrimp roll': 'https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'wonton': 'https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'dumpling': 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'crab rangoon': 'https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'chicken wing': 'https://images.unsplash.com/photo-1527477396000-e27163b481c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'spare rib': 'https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'soup': 'https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'hot & sour': 'https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'egg drop': 'https://images.unsplash.com/photo-1543339308-43e59d6b73a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'chicken': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'general tso': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'kung pao': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'sesame chicken': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'orange chicken': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'beef': 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'pepper steak': 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'shrimp': 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'lobster sauce': 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'pork': 'https://images.unsplash.com/photo-1604503468506-a8da13d82791?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'sweet & sour': 'https://images.unsplash.com/photo-1604503468506-a8da13d82791?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'roast pork': 'https://images.unsplash.com/photo-1604503468506-a8da13d82791?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'fried rice': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'lo mein': 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'chow mein': 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'chop suey': 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'tofu': 'https://images.unsplash.com/photo-1616190174793-4d96d5b8e7e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'mapo': 'https://images.unsplash.com/photo-1616190174793-4d96d5b8e7e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'vegetable': 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'broccoli': 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'egg foo young': 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'moo shu': 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'scallop': 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'seafood': 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'dragon': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'phoenix': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'happy family': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'triple delight': 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'fortune cookie': 'https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                'rice': 'https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+            };
+
+            // Try to find a matching image
+            for (const [key, url] of Object.entries(imageMap)) {
+                if (name.includes(key)) {
+                    return url;
+                }
+            }
+
+            // Default Chinese food image
+            return 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80';
+        }
+
+        // Function to extract clean food name (remove numbers and Chinese characters)
+        function getCleanFoodName(fullName) {
+            // Remove leading numbers, dots, and Chinese characters
+            return fullName
+                .replace(/^\d+[a-z]?\.\s*/, '') // Remove leading number and dot
+                .replace(/\s*[\u4e00-\u9fff]+.*$/, '') // Remove Chinese characters
+                .trim();
+        }
+
+        // Load and render menu
+        async function loadMenu() {
+            try {
+                const response = await fetch('menu.json');
+                const menuData = await response.json();
+                const container = document.getElementById('menu-container');
+                
+                // Category order - Appetizers should be open by default
+                const preferredOrder = [
+                    'Appetizers',
+                    'Soup',
+                    'Most Popular',
+                    'Lunch Special',
+                    'Special Combination Platters',
+                    'Chef\'s Specialties',
+                    'Chicken',
+                    'Beef',
+                    'Seafood',
+                    'Roast Pork',
+                    'Vegetable',
+                    'Fried Rice',
+                    'Lo Mein',
+                    'Chow Mein',
+                    'Chop Suey',
+                    'Sweet & Sour',
+                    'Egg Foo Young',
+                    'Chow Mei Fun',
+                    'Moo Shu',
+                    'Side Orders',
+                    'Health Food Dishes'
+                ];
+
+                // Get all categories from JSON and order them
+                const allCategories = Object.keys(menuData);
+                const categoryOrder = preferredOrder.filter(cat => allCategories.includes(cat))
+                    .concat(allCategories.filter(cat => !preferredOrder.includes(cat)));
+
+                // Generate HTML for each category
+                categoryOrder.forEach((categoryName, index) => {
+                    if (!menuData[categoryName]) return;
+
+                    const isOpen = categoryName === 'Appetizers';
+                    const categoryDiv = document.createElement('div');
+                    categoryDiv.className = `menu-category ${isOpen ? 'active' : ''}`;
+                    
+                    const button = document.createElement('button');
+                    button.className = 'category-title';
+                    button.onclick = function() { toggleCategory(this); };
+                    button.innerHTML = `
+                        <span>${categoryName}</span>
+                        <span class="dropdown-arrow">${isOpen ? '▲' : '▼'}</span>
+                    `;
+                    
+                    const menuItemsDiv = document.createElement('div');
+                    menuItemsDiv.className = 'menu-items';
+                    
+                    menuData[categoryName].forEach(item => {
+                        const cleanName = getCleanFoodName(item.name);
+                        const imageUrl = getFoodImage(item.name);
+                        
+                        const menuItem = document.createElement('div');
+                        menuItem.className = 'menu-item';
+                        menuItem.innerHTML = `
+                            <div class="item-image">
+                                <img src="${imageUrl}" alt="${cleanName}" loading="lazy">
+                            </div>
+                            <div class="item-details">
+                                <div class="item-name-price">
+                                    <span class="item-name">${item.name}</span>
+                                    <span class="item-price">${item.price}</span>
+                                </div>
+                            </div>
+                        `;
+                        menuItemsDiv.appendChild(menuItem);
+                    });
+                    
+                    categoryDiv.appendChild(button);
+                    categoryDiv.appendChild(menuItemsDiv);
+                    container.appendChild(categoryDiv);
+                });
+            } catch (error) {
+                console.error('Error loading menu:', error);
+                document.getElementById('menu-container').innerHTML = 
+                    '<p>Error loading menu. Please refresh the page.</p>';
+            }
+        }
+
+        // Load menu when page loads
+        loadMenu();
     </script>
 </body>
 </html>
