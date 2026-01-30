@@ -141,7 +141,7 @@ async function loadMenu() {
             
             menuData[categoryName].forEach(item => {
                 const cleanName = getCleanFoodName(item.name);
-                const imageUrl = getFoodImage(item.name);
+                const imageUrl = item.image || getFoodImage(item.name);
                 
                 const menuItem = document.createElement('div');
                 menuItem.className = 'menu-item';
