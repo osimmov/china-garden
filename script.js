@@ -145,17 +145,38 @@ async function loadMenu() {
                 
                 const menuItem = document.createElement('div');
                 menuItem.className = 'menu-item';
-                menuItem.innerHTML = `
-                    <div class="item-image">
-                        <img src="${imageUrl}" alt="${cleanName}" loading="lazy">
-                    </div>
-                    <div class="item-details">
-                        <div class="item-name-price">
-                            <span class="item-name">${item.name}</span>
-                            <span class="item-price">${item.price}</span>
-                        </div>
-                    </div>
-                `;
+
+                // Securely create elements to prevent XSS
+                const itemImageDiv = document.createElement('div');
+                itemImageDiv.className = 'item-image';
+
+                const img = document.createElement('img');
+                img.src = imageUrl;
+                img.alt = cleanName;
+                img.loading = 'lazy';
+                itemImageDiv.appendChild(img);
+
+                const itemDetailsDiv = document.createElement('div');
+                itemDetailsDiv.className = 'item-details';
+
+                const itemNamePriceDiv = document.createElement('div');
+                itemNamePriceDiv.className = 'item-name-price';
+
+                const nameSpan = document.createElement('span');
+                nameSpan.className = 'item-name';
+                nameSpan.textContent = item.name; // Safe assignment
+
+                const priceSpan = document.createElement('span');
+                priceSpan.className = 'item-price';
+                priceSpan.textContent = item.price; // Safe assignment
+
+                itemNamePriceDiv.appendChild(nameSpan);
+                itemNamePriceDiv.appendChild(priceSpan);
+                itemDetailsDiv.appendChild(itemNamePriceDiv);
+
+                menuItem.appendChild(itemImageDiv);
+                menuItem.appendChild(itemDetailsDiv);
+
                 menuItemsDiv.appendChild(menuItem);
             });
             
