@@ -131,10 +131,15 @@ async function loadMenu() {
             const button = document.createElement('button');
             button.className = 'category-title';
             button.onclick = function() { toggleCategory(this); };
-            button.innerHTML = `
-                <span>${categoryName}</span>
-                <span class="dropdown-arrow">${isOpen ? '▲' : '▼'}</span>
-            `;
+            const spanName = document.createElement('span');
+            spanName.textContent = categoryName;
+
+            const spanArrow = document.createElement('span');
+            spanArrow.className = 'dropdown-arrow';
+            spanArrow.textContent = isOpen ? '▲' : '▼';
+
+            button.appendChild(spanName);
+            button.appendChild(spanArrow);
             
             const menuItemsDiv = document.createElement('div');
             menuItemsDiv.className = 'menu-items';
@@ -145,17 +150,36 @@ async function loadMenu() {
                 
                 const menuItem = document.createElement('div');
                 menuItem.className = 'menu-item';
-                menuItem.innerHTML = `
-                    <div class="item-image">
-                        <img src="${imageUrl}" alt="${cleanName}" loading="lazy">
-                    </div>
-                    <div class="item-details">
-                        <div class="item-name-price">
-                            <span class="item-name">${item.name}</span>
-                            <span class="item-price">${item.price}</span>
-                        </div>
-                    </div>
-                `;
+
+                const itemImageDiv = document.createElement('div');
+                itemImageDiv.className = 'item-image';
+
+                const img = document.createElement('img');
+                img.src = imageUrl;
+                img.alt = cleanName;
+                img.loading = 'lazy';
+                itemImageDiv.appendChild(img);
+
+                const itemDetailsDiv = document.createElement('div');
+                itemDetailsDiv.className = 'item-details';
+
+                const itemNamePriceDiv = document.createElement('div');
+                itemNamePriceDiv.className = 'item-name-price';
+
+                const nameSpan = document.createElement('span');
+                nameSpan.className = 'item-name';
+                nameSpan.textContent = item.name;
+
+                const priceSpan = document.createElement('span');
+                priceSpan.className = 'item-price';
+                priceSpan.textContent = item.price;
+
+                itemNamePriceDiv.appendChild(nameSpan);
+                itemNamePriceDiv.appendChild(priceSpan);
+                itemDetailsDiv.appendChild(itemNamePriceDiv);
+
+                menuItem.appendChild(itemImageDiv);
+                menuItem.appendChild(itemDetailsDiv);
                 menuItemsDiv.appendChild(menuItem);
             });
             
