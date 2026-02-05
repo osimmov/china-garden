@@ -131,10 +131,17 @@ async function loadMenu() {
             const button = document.createElement('button');
             button.className = 'category-title';
             button.onclick = function() { toggleCategory(this); };
-            button.innerHTML = `
-                <span>${categoryName}</span>
-                <span class="dropdown-arrow">${isOpen ? '▲' : '▼'}</span>
-            `;
+
+            // Create button content safely
+            const categorySpan = document.createElement('span');
+            categorySpan.textContent = categoryName;
+
+            const arrowSpan = document.createElement('span');
+            arrowSpan.className = 'dropdown-arrow';
+            arrowSpan.textContent = isOpen ? '▲' : '▼';
+
+            button.appendChild(categorySpan);
+            button.appendChild(arrowSpan);
             
             const menuItemsDiv = document.createElement('div');
             menuItemsDiv.className = 'menu-items';
@@ -145,17 +152,42 @@ async function loadMenu() {
                 
                 const menuItem = document.createElement('div');
                 menuItem.className = 'menu-item';
-                menuItem.innerHTML = `
-                    <div class="item-image">
-                        <img src="${imageUrl}" alt="${cleanName}" loading="lazy">
-                    </div>
-                    <div class="item-details">
-                        <div class="item-name-price">
-                            <span class="item-name">${item.name}</span>
-                            <span class="item-price">${item.price}</span>
-                        </div>
-                    </div>
-                `;
+
+                // Create item content safely using DOM methods instead of innerHTML
+                // This prevents XSS attacks from malicious data in menu.json
+
+                // 1. Image section
+                const imageDiv = document.createElement('div');
+                imageDiv.className = 'item-image';
+
+                const img = document.createElement('img');
+                img.src = imageUrl;
+                img.alt = cleanName;
+                img.loading = 'lazy';
+
+                imageDiv.appendChild(img);
+
+                // 2. Details section
+                const detailsDiv = document.createElement('div');
+                detailsDiv.className = 'item-details';
+
+                const namePriceDiv = document.createElement('div');
+                namePriceDiv.className = 'item-name-price';
+
+                const nameSpan = document.createElement('span');
+                nameSpan.className = 'item-name';
+                nameSpan.textContent = item.name;
+
+                const priceSpan = document.createElement('span');
+                priceSpan.className = 'item-price';
+                priceSpan.textContent = item.price;
+
+                namePriceDiv.appendChild(nameSpan);
+                namePriceDiv.appendChild(priceSpan);
+                detailsDiv.appendChild(namePriceDiv);
+
+                menuItem.appendChild(imageDiv);
+                menuItem.appendChild(detailsDiv);
                 menuItemsDiv.appendChild(menuItem);
             });
             
