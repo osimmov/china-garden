@@ -350,3 +350,7 @@ footer {
         height: 300px;
     }
 }
+
+.google-map {
+    border: 0;
+}
