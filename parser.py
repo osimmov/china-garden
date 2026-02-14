@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import sys
 
 URL = "https://www.wooshdelivery.com/order/restaurant/china-garden-menu/87313"
 
@@ -8,7 +9,15 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-response = requests.get(URL, headers=headers)
+try:
+    # Added timeout to prevent potential DoS if server hangs
+    response = requests.get(URL, headers=headers, timeout=10)
+    response.raise_for_status()
+except requests.RequestException as e:
+    # Fail securely without exposing stack trace
+    print(f"Error fetching menu: {e}")
+    sys.exit(1)
+
 soup = BeautifulSoup(response.text, "html.parser")
 
 menu = {}
