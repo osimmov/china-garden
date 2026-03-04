@@ -1,0 +1,4 @@
+## 2026-03-04 - Strict Content Security Policy (CSP) Implementation
+**Vulnerability:** Missing Content Security Policy (CSP) exposed the application to potential Cross-Site Scripting (XSS) and unauthorized resource injection.
+**Learning:** CSP mitigation strictly blocks inline styles (`style="border:0;"` on iframes) when using `style-src 'self'`. This requires all inline styles to be removed and properly defined in external CSS stylesheets (e.g., `style.css`). Furthermore, when implemented via a meta tag, the `frame-ancestors` directive is ignored and must be excluded.
+**Prevention:** Always define application styles in dedicated external stylesheets. Avoid inline `style` attributes. Implement strict CSP headers or meta tags early in the project to restrict executable scripts, styles, and other fetched resources to known, trusted origins only.
