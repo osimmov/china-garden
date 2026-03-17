@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import sys
 
 URL = "https://www.wooshdelivery.com/order/restaurant/china-garden-menu/87313"
 
@@ -8,36 +9,48 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-response = requests.get(URL, headers=headers)
-soup = BeautifulSoup(response.text, "html.parser")
+def main():
+    try:
+        # Sentinel: Added timeout=10 to prevent DoS via indefinite hanging on external requests
+        response = requests.get(URL, headers=headers, timeout=10)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        # Sentinel: Catch request exceptions to fail securely without leaking full stack traces
+        print("Error: Failed to fetch menu data securely. Operation aborted.")
+        sys.exit(1)
 
-menu = {}
-current_category = None
+    soup = BeautifulSoup(response.text, "html.parser")
 
-# This grabs both headings and menu items in page order
-for element in soup.find_all(["div"], recursive=True):
+    menu = {}
+    current_category = None
 
-    # CATEGORY
-    if "restaurant_heading" in element.get("class", []):
-        h4 = element.find("h4")
-        if h4:
-            current_category = h4.get_text(strip=True)
-            menu[current_category] = []
+    # This grabs both headings and menu items in page order
+    for element in soup.find_all(["div"], recursive=True):
 
-    # MENU ITEM
-    if element.get("class") == ["order_restaurant--menu_item_name"]:
-        name = element.get_text(strip=True)
+        # CATEGORY
+        if "restaurant_heading" in element.get("class", []):
+            h4 = element.find("h4")
+            if h4:
+                current_category = h4.get_text(strip=True)
+                menu[current_category] = []
 
-        price_div = element.find_next("div", class_="menu_item_price")
-        price = price_div.get_text(strip=True) if price_div else None
+        # MENU ITEM
+        if element.get("class") == ["order_restaurant--menu_item_name"]:
+            name = element.get_text(strip=True)
 
-        if current_category:
-            menu[current_category].append({
-                "name": name,
-                "price": price
-            })
+            price_div = element.find_next("div", class_="menu_item_price")
+            price = price_div.get_text(strip=True) if price_div else None
 
-with open("menu.json", "w", encoding="utf-8") as f:
-    json.dump(menu, f, indent=2, ensure_ascii=False)
+            if current_category:
+                menu[current_category].append({
+                    "name": name,
+                    "price": price
+                })
 
-print("menu.json created with categories")
+    with open("menu.json", "w", encoding="utf-8") as f:
+        json.dump(menu, f, indent=2, ensure_ascii=False)
+
+    print("menu.json created with categories")
+
+if __name__ == "__main__":
+    main()
