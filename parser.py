@@ -8,7 +8,14 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-response = requests.get(URL, headers=headers)
+try:
+    # Timeout added to prevent indefinite hanging (DoS risk)
+    response = requests.get(URL, headers=headers, timeout=10)
+    response.raise_for_status()
+except requests.RequestException as e:
+    print("Error fetching menu data. Please try again later.")
+    exit(1)
+
 soup = BeautifulSoup(response.text, "html.parser")
 
 menu = {}
